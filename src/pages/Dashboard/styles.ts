@@ -45,6 +45,12 @@ export const Card = styled.div`
     font-weight: normal;
     line-height: 54px;
   }
+
+  strong {
+    color: #969cb3;
+    font-size: 12px;
+    line-height: 14px;
+  }
 `;
 
 export const TableContainer = styled.section`
@@ -61,6 +67,10 @@ export const TableContainer = styled.section`
       text-align: left;
       font-size: 16px;
       line-height: 24px;
+
+      img {
+        margin-left: 12px;
+      }
     }
 
     td {
